@@ -7,6 +7,23 @@
 * set default editor for commit `git config --global core.editor "vim"`
 * install git-town, gitg, meld
 * set default mergetool `git config --global merge.tool meld`
+* git status prompt <https://github.com/twolfson/sexy-bash-prompt>
+
+![bash-prompt](bash-prompt.png)
+
+## Comandos básicos
+
+* init
+* clone
+* status
+* add
+* commit
+* branch
+* checkout
+* push
+* pull
+* merge
+* rebase
 
 ## Happy Day
 
@@ -134,21 +151,7 @@ start a local server
 $ python -m SimpleHTTPServer
 ```
 
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>COMSOLiD</title>
-        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" media="screen" charset="utf-8">
-        <link rel="stylesheet" href="vendor/bootstrap/navbar-fixed-top.css" media="screen" charset="utf-8">
-    </head>
-    <body>
-        <script src="vendor/jquery/jquery.min.js" charset="utf-8"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
-    </body>
-</html>
-```
+Abrir `tarefa-1/index.html`
 
 ```
 $ gitg
@@ -179,7 +182,7 @@ $ git push origin master
 
 ### Alice: 2 - Adicionar logos de softwares livres
 
-copy img sources to assets
+copy `img` sources to assets
 
 ```
 $ git checkout -b issue-2
@@ -227,70 +230,7 @@ show every step of hack.
 
 __obs__: fazer o hack de Alice antes de commitar!
 
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>COMSOLiD</title>
-        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" media="screen" charset="utf-8">
-        <link rel="stylesheet" href="vendor/bootstrap/navbar-fixed-top.css" media="screen" charset="utf-8">
-    </head>
-    <body>
-        <div class="container">
-            <section>
-                <h1>Distribuições GNU/Linux</h1><hr>
-                <div class="row">
-                    <div class="col-md-2">
-                        <img src="img/distributor-logo-archlinux.png" alt="archlinux" />
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Arch Linux</h3>
-                        <a href="https://www.archlinux.org/" class="btn btn-link">Site Oficial</a>
-                        <p>
-                            Arch Linux is a Linux distribution for computers based on IA-32 and x86-64 architectures. It is composed predominantly of free and open-source software, and supports community involvement.
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="img/distributor-logo-debian.png" alt="debian" />
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Debian</h3>
-                        <a href="http://www.debian.org/" class="btn btn-link">Site Oficial</a>
-                        <p>
-                            Debian is a Unix-like computer operating system that is composed entirely of free software, most of which is under the GNU General Public License, and packaged by a group of individuals known as the Debian Project. Three mai…
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <img src="img/distributor-logo-eos.png" alt="elementary" />
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Elementary OS</h3>
-                        <a href="http://elementaryos.org/" class="btn btn-link">Site Oficial</a>
-                        <p>
-                            elementary OS is a Linux distribution based on Ubuntu. It makes use of a desktop with its own shell named Pantheon, and is deeply integrated with other elementary OS applications like Plank, Midori and Scratch. This dist…
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="img/distributor-logo-gentoo.png" alt="gentoo" />
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Gentoo</h3>
-                        <a href="https://www.gentoo.org/" class="btn btn-link">Site Oficial</a>
-                        <p>
-                            Gentoo Linux is a computer operating system based on the Linux kernel and built using the Portage package management system. It is distributed as free and open-source software. Unlike a binary software distribution, …
-                        </p>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <script src="vendor/jquery/jquery.min.js" charset="utf-8"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
-    </body>
-</html>
-```
+Abrir `tarefa-3/index.html`
 
 ```
 $ gitg
@@ -309,61 +249,7 @@ $ git checkout master
 $ git hack issue-4
 ```
 
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>COMSOLiD</title>
-        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" media="screen" charset="utf-8">
-        <link rel="stylesheet" href="vendor/bootstrap/navbar-fixed-top.css" media="screen" charset="utf-8">
-    </head>
-    <body>
-        <div class="container">
-            <section>
-                <h1>Ambientes Gráficos Livres</h1><hr>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h3>GNOME</h3>
-                        <p>
-                            GNOME is a desktop environment that is composed entirely of free and open-source software. GNOME was originally an acronym for GNU Network Object Model Environment. Its target operating system is Linux, but it is also…
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="img/desktop-environment-gnome.png" alt="png" class="center-block"/><hr>
-                        <a href="https://www.gnome.org/" class="btn btn-default btn-block">Site Oficial</a>
-                    </div>
-                    <div class="col-md-4">
-                        <h3>KDE</h3>
-                        <p>
-                            KDE is an international free software community producing free and libre software like Plasma Desktop, KDE Frameworks and many cross-platform applications designed to run on modern Unix-like and Microsoft Window…
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="img/desktop-environment-kde.png" alt="png" class="center-block"/><hr>
-                        <a href="http://www.kde.org/" class="btn btn-default btn-block">Site Oficial</a>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h3>XFCE</h3>
-                        <p>
-                            Xfce is a free and open-source desktop environment for Unix and Unix-like platforms, such as Linux, Solaris, and BSD.
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="img/desktop-environment-xfce.png" alt="png" class="center-block"/><hr>
-                        <a href="http://xfce.org/" class="btn btn-default btn-block">Site Oficial</a>
-                    </div>
-            </div>
-        </section>
-    </div>
-    <script src="vendor/jquery/jquery.min.js" charset="utf-8"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
-</body>
-</html>
-```
+Abrir `tarefa-4/index.html`
 
 ```
 $ # add and commit
